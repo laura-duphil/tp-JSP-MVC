@@ -25,6 +25,7 @@
                 <tr>
                     <td> ${entry.code} </td>
                     <td> ${entry.taux} </td>
+                    <td><input type="submit" value="DELETE"></td>
                 </tr>
             </c:forEach>
             </tr>

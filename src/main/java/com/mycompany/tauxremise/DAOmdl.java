@@ -46,9 +46,10 @@ public class DAOmdl {
                 DiscountEntity c = new DiscountEntity(code, taux);
                 // On l'ajoute à la liste des résultats
                 result.add(c);
+                System.out.println(code);
             }
         } catch (SQLException ex) {
-                Logger.getLogger("DAO").log(Level.SEVERE, null, ex);
+                Logger.getLogger("DAO").log(Level.SEVERE, "Probleme", ex);
                 throw new Exception(ex.getMessage());
         }
         return result;

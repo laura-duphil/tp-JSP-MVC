@@ -19,12 +19,12 @@ public class DiscountEntity {
     }
 
     public String getCode() {
-            return code;
+            return this.code;
     }
 
     
     public float getTaux() {
-            return taux;
+            return this.taux;
     }
 
 }
